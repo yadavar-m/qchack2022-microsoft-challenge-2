@@ -1,4 +1,4 @@
-### Part 2 - Project
+# Part 2 - Project
 
 In the part 2, we will use a quantum computer to implement and explore the solution to a problem of otimization. In fact, we implement the Variational Quantum Eigensolver (VQE) [3] in finding the ground state energy of molecules [1]. The project is written in the Qiskit programming language, and we explore its behavior using the simulator (?) and hardware targets (?) provided by Microsoft Azure.
 
