@@ -1,8 +1,9 @@
 ### Part 2 - Project
 
-In the part 2, we will use a quantum computer to implement and explore the solution to a problem of otimization. We implement the project in Qiskit programming language, and explore its behavior using the simulator (?) and hardware targets (?) provided by Microsoft Azure.
+In the part 2, we will use a quantum computer to implement and explore the solution to a problem of otimization. In fact, we implement the Variational Quantum Eigensolver (VQE) [3] in finding the ground state energy of molecules [1]. The project is written in the Qiskit programming language, and we explore its behavior using the simulator (?) and hardware targets (?) provided by Microsoft Azure.
 
-* You can then create an ElectronicStructureProblem that can produce the list of fermionic operators before mapping them to qubits (Pauli strings). This is the first step in defining your molecular system in its ground state.
+*  The goal is to compute the ground state of a molecular Hamiltonian.
+*  We apply an ElectronicStructureProblem that can produce the list of fermionic operators before mapping them to qubits (Pauli strings). This is the first step in defining your molecular system in its ground state.
 *  
  
 
